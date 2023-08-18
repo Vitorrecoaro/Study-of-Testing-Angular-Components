@@ -1,0 +1,5 @@
+<h1 id="title">Qual é o valor de 2 + 2?</h1>
+<button (click)="toggleResult()" id="result-toggle-button">
+  {{ resultShowed ? "Esconder valor" : "Revelar valor" }}
+</button>
+<h3 *ngIf="resultShowed" id="result">O valor é: 4</h3>
